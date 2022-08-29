@@ -1,0 +1,53 @@
+.sidebar {
+    width: 100%;
+    height: 350px;
+    background-color: pink;
+    position: relative;
+    transition: 0.5s;
+}
+
+.hide {
+    transform: translateY(-80%);
+}
+
+
+.sidebar .icon i {
+    color: white;
+    font-size: 55px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.sidebar .icon i:hover  {
+    color: black;
+    
+}
+
+.sidebar .nav-list {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.sidebar .nav-list ul {
+    display: flex;
+}
+
+.sidebar .nav-list ul li {
+    list-style: none;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.sidebar .nav-list ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar .nav-list ul li a:hover {
+    color: black;
+}
